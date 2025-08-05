@@ -602,7 +602,7 @@ def make_reynolds_dynamic(x, y):
 
         # Reynolds terms
         
-# Slip parameters 
+        # Slip parameters 
         # where 𝛼 is a dimensionless sli p coefficient
         # that depends on the material characteristics of the permeable material
         # and not on the physical properties of the fluid (Beavers et al. 1970)
@@ -839,4 +839,5 @@ plt.plot(t_hist, Fy_hist, label='Fy(t)')
 plt.xlabel("Time (s)")
 plt.ylabel("Force (N)")
 plt.title("Total Vertical Force Over Time")
+
 plt.grid(); plt.legend(); plt.tight_layout(); plt.show()
